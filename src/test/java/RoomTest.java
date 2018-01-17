@@ -22,7 +22,7 @@ public class RoomTest {
 
     @Before
     public void before(){
-        enemy = new Enemy("Rancor", 12);
+        enemy = new Enemy("Rancor", 12, 75);
         room1 = new Room("Trophy Chamber", Treasure.TROPHIES, enemy);
         player = new Witch("Jeff", Spell.FIREBALL, MythicalCreature.OGRE, 3 );
     }

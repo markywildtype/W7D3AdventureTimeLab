@@ -1,8 +1,11 @@
 package Players.NonMagicalPlayers;
 
+import Actions.IAttack;
+import Actions.IDamage;
 import Players.Player;
+import RoomObjects.Enemy;
 
-public abstract class NonMagicalPlayer extends Player{
+public abstract class NonMagicalPlayer extends Player implements IAttack{
 
     Weapon weapon;
 
@@ -21,5 +24,9 @@ public abstract class NonMagicalPlayer extends Player{
 
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
+    }
+
+    public void attack(Enemy enemy){
+        enemy.sustainDamage(this.getWeaponDamage());
     }
 }

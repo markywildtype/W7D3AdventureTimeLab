@@ -1,6 +1,9 @@
 package Players.NonMagicalPlayers;
 
-public class Barbarian extends NonMagicalPlayer{
+import Actions.IAttack;
+import RoomObjects.Enemy;
+
+public class Barbarian extends NonMagicalPlayer {
 
     private int berzerkerValue;
 
@@ -9,11 +12,12 @@ public class Barbarian extends NonMagicalPlayer{
         this.berzerkerValue = berzerkerValue;
     }
 
-    public int getBerzerkerValue() {
+    public int getBerzerkerValue(){
         return this.berzerkerValue;
     }
 
-    public int berzerkerAttack() {
+    public int berzerkerAttack(){
         return this.berzerkerValue * getWeaponDamage();
     }
+
 }

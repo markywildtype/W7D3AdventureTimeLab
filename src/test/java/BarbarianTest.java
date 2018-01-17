@@ -1,5 +1,6 @@
 import Players.NonMagicalPlayers.Barbarian;
 import Players.NonMagicalPlayers.Weapon;
+import RoomObjects.Enemy;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -8,10 +9,12 @@ import static org.junit.Assert.assertEquals;
 public class BarbarianTest {
 
     Barbarian barbarian;
+    Enemy enemy;
 
     @Before
     public void before(){
         barbarian = new Barbarian("Conan", Weapon.CLUB,2);
+        enemy = new Enemy("Orc", 11, 50);
     }
 
     @Test
@@ -58,5 +61,12 @@ public class BarbarianTest {
     public void canAddToScore(){
         barbarian.addToScore(5);
         assertEquals(5, barbarian.getScore());
+    }
+
+    @Test
+    public void canAttack(){
+        int result = enemy.getHealthValue() - barbarian.getWeaponDamage();
+        barbarian.attack(enemy);
+        assertEquals(41, result);
     }
 }

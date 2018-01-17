@@ -1,5 +1,6 @@
 import Players.NonMagicalPlayers.Dwarf;
 import Players.NonMagicalPlayers.Weapon;
+import RoomObjects.Enemy;
 import RoomObjects.Treasure;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,10 +11,12 @@ import static org.junit.Assert.assertEquals;
 public class DwarfTest {
 
     Dwarf dwarf;
+    Enemy enemy;
 
     @Before
     public void before(){
         dwarf = new Dwarf("Gimli", Weapon.AXE, 10);
+        enemy = new Enemy("Orc", 11, 50);
     }
 
     @Test
@@ -85,6 +88,13 @@ public class DwarfTest {
     public void treasureValueAddsToScore(){
         dwarf.addTreasure(Treasure.GOLD);
         assertEquals(10, dwarf.getScore());
+    }
+
+    @Test
+    public void canAttack(){
+        int result = enemy.getHealthValue() - dwarf.getWeaponDamage();
+        dwarf.attack(enemy);
+        assertEquals(35, result);
     }
 
 }

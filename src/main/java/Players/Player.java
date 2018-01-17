@@ -1,5 +1,6 @@
 package Players;
 
+import Actions.IAttack;
 import RoomObjects.Treasure;
 
 import java.util.ArrayList;
