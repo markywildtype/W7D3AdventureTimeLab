@@ -51,4 +51,6 @@ public abstract class Player {
         this.score += treasure.getValue();
         this.treasure.add(treasure);
     }
+
+
 }
