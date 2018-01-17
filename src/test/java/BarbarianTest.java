@@ -65,8 +65,7 @@ public class BarbarianTest {
 
     @Test
     public void canAttack(){
-        int result = enemy.getHealthValue() - barbarian.getWeaponDamage();
         barbarian.attack(enemy);
-        assertEquals(41, result);
+        assertEquals(41, enemy.getHealthValue());
     }
 }

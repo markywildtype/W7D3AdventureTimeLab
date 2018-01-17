@@ -1,8 +1,10 @@
 package Players.MagicalPlayers;
 
+import Actions.IAttack;
 import Players.Player;
+import RoomObjects.Enemy;
 
-public abstract class MagicalPlayer extends Player{
+public abstract class MagicalPlayer extends Player implements IAttack{
 
     Spell spell;
     MythicalCreature mythicalCreature;
@@ -35,5 +37,9 @@ public abstract class MagicalPlayer extends Player{
 
     public int defend() {
         return this.mythicalCreature.getDefenceValue();
+    }
+
+    public void attack(Enemy enemy){
+        enemy.sustainDamage(this.spell.getPower());
     }
 }

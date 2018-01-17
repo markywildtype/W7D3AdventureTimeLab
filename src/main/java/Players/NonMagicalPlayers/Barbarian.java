@@ -1,8 +1,5 @@
 package Players.NonMagicalPlayers;
 
-import Actions.IAttack;
-import RoomObjects.Enemy;
-
 public class Barbarian extends NonMagicalPlayer {
 
     private int berzerkerValue;
