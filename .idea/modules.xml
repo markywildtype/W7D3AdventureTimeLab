@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdventureTimeLab.iml" filepath="$PROJECT_DIR$/.idea/modules/AdventureTimeLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdventureTimeLab_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AdventureTimeLab_main.iml" group="AdventureTimeLab" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdventureTimeLab_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AdventureTimeLab_test.iml" group="AdventureTimeLab" />
+    </modules>
+  </component>
+</project>
