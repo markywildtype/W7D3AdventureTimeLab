@@ -12,4 +12,22 @@ public abstract class MagicalPlayer extends Player{
         this.spell = spell;
         this.mythicalCreature = mythicalCreature;
     }
+
+    public Spell getSpell() {
+        return this.spell;
+    }
+
+    public MythicalCreature getMythicalCreature() {
+        return this.mythicalCreature;
+    }
+
+    public void setSpell(Spell spell) {
+        this.spell = spell;
+    }
+
+    public void setMythicalCreature(MythicalCreature mythicalCreature) {
+        this.mythicalCreature = mythicalCreature;
+    }
+
+//    abstract int castSpell();
 }
