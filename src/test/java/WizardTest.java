@@ -29,4 +29,9 @@ public class WizardTest {
     public void castWisdomSpell(){
         assertEquals(60, wizard.castWisdomSpell());
     }
+
+    @Test
+    public void canDefendWithCreature(){
+        assertEquals(13, wizard.defend());
+    }
 }

@@ -32,4 +32,8 @@ public abstract class MagicalPlayer extends Player{
     public int castSpell(){
         return this.spell.getPower();
     }
+
+    public int defend() {
+        return this.mythicalCreature.getDefenceValue();
+    }
 }
