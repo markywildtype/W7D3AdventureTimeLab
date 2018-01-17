@@ -19,4 +19,19 @@ public abstract class Player {
     }
 
 
+    public String getName() {
+        return this.name;
+    }
+
+    public int getHealthValue() {
+        return this.healthValue;
+    }
+
+    public int treasureCount() {
+        return this.treasure.size();
+    }
+
+    public int getScore() {
+        return this.score;
+    }
 }
