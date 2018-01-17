@@ -12,4 +12,9 @@ public class Wizard extends MagicalPlayer{
     public int getWisdom() {
         return this.wisdom;
     }
+
+
+    public int castWisdomSpell() {
+        return this.wisdom * getSpell().getPower();
+    }
 }

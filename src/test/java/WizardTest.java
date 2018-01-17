@@ -19,4 +19,14 @@ public class WizardTest {
     public void hasWisdom(){
         assertEquals(4, wizard.getWisdom());
     }
+
+    @Test
+    public void canCastSpell(){
+        assertEquals(15, wizard.castSpell());
+    }
+
+    @Test
+    public void castWisdomSpell(){
+        assertEquals(60, wizard.castWisdomSpell());
+    }
 }
