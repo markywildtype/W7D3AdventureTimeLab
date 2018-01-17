@@ -46,4 +46,9 @@ public abstract class Player {
     public void increaseHealthValue(int amount) {
         this.healthValue += amount;
     }
+
+    public void addTreasure(Treasure treasure) {
+        this.score += treasure.getValue();
+        this.treasure.add(treasure);
+    }
 }

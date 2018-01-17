@@ -1,5 +1,6 @@
 import Players.NonMagicalPlayers.Dwarf;
 import Players.NonMagicalPlayers.Weapon;
+import RoomObjects.Treasure;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -73,4 +74,17 @@ public class DwarfTest {
         dwarf.increaseHealthValue(10);
         assertEquals(110, dwarf.getHealthValue());
     }
+
+    @Test
+    public void canAddTreasure(){
+        dwarf.addTreasure(Treasure.GOLD);
+        assertEquals(1, dwarf.treasureCount());
+    }
+
+    @Test
+    public void treasureValueAddsToScore(){
+        dwarf.addTreasure(Treasure.GOLD);
+        assertEquals(10, dwarf.getScore());
+    }
+
 }
