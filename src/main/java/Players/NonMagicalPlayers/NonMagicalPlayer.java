@@ -10,4 +10,12 @@ public abstract class NonMagicalPlayer extends Player{
         super(name);
         this.weapon = weapon;
     }
+
+    public Weapon getWeapon() {
+        return this.weapon;
+    }
+
+    public int getWeaponDamage() {
+        return this.weapon.getDamage();
+    }
 }

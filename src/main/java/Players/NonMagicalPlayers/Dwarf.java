@@ -9,5 +9,7 @@ public class Dwarf extends NonMagicalPlayer{
         this.chainmailProtection = chainmailProtection;
     }
 
-
+    public int getChainmailProtection() {
+        return this.chainmailProtection;
+    }
 }

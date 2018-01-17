@@ -34,4 +34,19 @@ public class DwarfTest {
     public void scoreStartsAt0(){
         assertEquals(0, dwarf.getScore());
     }
+
+    @Test
+    public void hasWeapon(){
+        assertEquals(Weapon.AXE, dwarf.getWeapon());
+    }
+
+    @Test
+    public void weaponHasDamage(){
+        assertEquals(15, dwarf.getWeaponDamage());
+    }
+
+    @Test
+    public void hasChainmailProtection(){
+        assertEquals(10, dwarf.getChainmailProtection());
+    }
 }
