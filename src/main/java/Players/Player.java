@@ -34,4 +34,16 @@ public abstract class Player {
     public int getScore() {
         return this.score;
     }
+
+    public void addToScore(int amount) {
+        this.score += amount;
+    }
+
+    public void decreaseHealthValue(int amount) {
+        this.healthValue -= amount;
+    }
+
+    public void increaseHealthValue(int amount) {
+        this.healthValue += amount;
+    }
 }

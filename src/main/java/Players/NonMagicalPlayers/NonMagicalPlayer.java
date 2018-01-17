@@ -18,4 +18,8 @@ public abstract class NonMagicalPlayer extends Player{
     public int getWeaponDamage() {
         return this.weapon.getDamage();
     }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
+    }
 }

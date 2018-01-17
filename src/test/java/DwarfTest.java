@@ -49,4 +49,28 @@ public class DwarfTest {
     public void hasChainmailProtection(){
         assertEquals(10, dwarf.getChainmailProtection());
     }
+
+    @Test
+    public void canAddToScore(){
+        dwarf.addToScore(10);
+        assertEquals(10, dwarf.getScore());
+    }
+
+    @Test
+    public void canSetWeapon(){
+        dwarf.setWeapon(Weapon.STAFF);
+        assertEquals(Weapon.STAFF, dwarf.getWeapon());
+    }
+
+    @Test
+    public void canDecreaseHealthValue(){
+        dwarf.decreaseHealthValue(10);
+        assertEquals(90, dwarf.getHealthValue());
+    }
+
+    @Test
+    public void canIncreaseHealthValue(){
+        dwarf.increaseHealthValue(10);
+        assertEquals(110, dwarf.getHealthValue());
+    }
 }

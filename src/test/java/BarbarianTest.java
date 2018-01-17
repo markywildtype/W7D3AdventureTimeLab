@@ -53,4 +53,10 @@ public class BarbarianTest {
     public void berzerkerAttackMultipliesDamage(){
         assertEquals(18, barbarian.berzerkerAttack());
     }
+
+    @Test
+    public void canAddToScore(){
+        barbarian.addToScore(5);
+        assertEquals(5, barbarian.getScore());
+    }
 }

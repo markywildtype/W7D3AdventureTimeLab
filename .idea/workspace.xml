@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7de7c2a-d885-48f5-9d2a-e925c16ff007" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/Barbarian.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/NonMagicalPlayers/Dwarf.class" afterPath="$PROJECT_DIR$/out/production/classes/Players/NonMagicalPlayers/Dwarf.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/NonMagicalPlayers/NonMagicalPlayer.class" afterPath="$PROJECT_DIR$/out/production/classes/Players/NonMagicalPlayers/NonMagicalPlayer.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/DwarfTest.class" afterPath="$PROJECT_DIR$/out/test/classes/DwarfTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/Dwarf.java" afterPath="$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/Dwarf.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/NonMagicalPlayer.java" afterPath="$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/NonMagicalPlayer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" afterPath="$PROJECT_DIR$/src/main/java/Players/Player.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,8 +27,8 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="403">
+              <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#422#423#0" expanded="true" />
@@ -44,6 +39,12 @@
                 <element signature="e#605#606#0" expanded="true" />
                 <element signature="e#634#635#0" expanded="true" />
                 <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,13 +53,15 @@
       <file leaf-file-name="NonMagicalPlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/NonMagicalPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="e#282#283#0" expanded="true" />
                 <element signature="e#316#317#0" expanded="true" />
                 <element signature="e#352#353#0" expanded="true" />
                 <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DwarfTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DwarfTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DwarfTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="433">
+              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
@@ -134,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BarbarianTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BarbarianTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BarbarianTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="53" column="43" lean-forward="false" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+            <state relative-caret-position="343">
+              <caret line="56" column="4" lean-forward="false" selection-start-line="56" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
@@ -481,12 +484,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/Weapon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Players/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/Dwarf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/Barbarian.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BarbarianTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/NonMagicalPlayer.java" />
         <option value="$PROJECT_DIR$/src/test/java/DwarfTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/Dwarf.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BarbarianTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/Barbarian.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Players/Player.java" />
       </list>
     </option>
   </component>
@@ -592,7 +595,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BarbarianTest.berzerkerAttackMultipliesDamage">
+  <component name="RunManager" selected="JUnit.All in AdventureTimeLab_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -614,15 +617,15 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="BarbarianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in AdventureTimeLab_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="AdventureTimeLab_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BarbarianTest" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -654,14 +657,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BarbarianTest.hasBerzerkerValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BarbarianTest.canAddToScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="AdventureTimeLab_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BarbarianTest" />
-      <option name="METHOD_NAME" value="hasBerzerkerValue" />
+      <option name="METHOD_NAME" value="canAddToScore" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -674,14 +677,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DwarfTest.hasChainmailProtection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DwarfTest.canAddToScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="AdventureTimeLab_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DwarfTest" />
-      <option name="METHOD_NAME" value="hasChainmailProtection" />
+      <option name="METHOD_NAME" value="canAddToScore" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -694,14 +697,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DwarfTest.weaponHasDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DwarfTest.canSetWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="AdventureTimeLab_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DwarfTest" />
-      <option name="METHOD_NAME" value="weaponHasDamage" />
+      <option name="METHOD_NAME" value="canSetWeapon" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -775,19 +778,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DwarfTest.weaponHasDamage" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DwarfTest.hasChainmailProtection" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BarbarianTest.hasBerzerkerValue" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BarbarianTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BarbarianTest.berzerkerAttackMultipliesDamage" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BarbarianTest.berzerkerAttackMultipliesDamage" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BarbarianTest.canAddToScore" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DwarfTest.canAddToScore" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DwarfTest.canSetWeapon" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in AdventureTimeLab_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BarbarianTest.berzerkerAttackMultipliesDamage" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BarbarianTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BarbarianTest.hasBerzerkerValue" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DwarfTest.hasChainmailProtection" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DwarfTest.weaponHasDamage" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in AdventureTimeLab_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DwarfTest.canSetWeapon" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DwarfTest.canAddToScore" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BarbarianTest.canAddToScore" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BarbarianTest.berzerkerAttackMultipliesDamage" />
       </list>
     </recent_temporary>
   </component>
@@ -808,32 +811,32 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="All_in_AdventureTimeLab_test - 2018.01.17 at 13h 15m 15s.xml">
+      <configuration name="All in AdventureTimeLab_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BarbarianTest - 2018.01.17 at 12h 02m 17s.xml">
       <configuration name="BarbarianTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BarbarianTest_berzerkerAttackMultipliesDamage - 2018.01.17 at 12h 05m 10s.xml">
       <configuration name="BarbarianTest.berzerkerAttackMultipliesDamage" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BarbarianTest_canAddToScore - 2018.01.17 at 13h 07m 47s.xml">
+      <configuration name="BarbarianTest.canAddToScore" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BarbarianTest_hasBerzerkerValue - 2018.01.17 at 11h 58m 32s.xml">
       <configuration name="BarbarianTest.hasBerzerkerValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DwarfTest - 2018.01.17 at 11h 43m 04s.xml">
-      <configuration name="DwarfTest" configurationId="JUnit" />
+    <history-entry file="DwarfTest_canAddToScore - 2018.01.17 at 13h 09m 08s.xml">
+      <configuration name="DwarfTest.canAddToScore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DwarfTest - 2018.01.17 at 11h 46m 09s.xml">
-      <configuration name="DwarfTest" configurationId="JUnit" />
+    <history-entry file="DwarfTest_canSetWeapon - 2018.01.17 at 13h 11m 26s.xml">
+      <configuration name="DwarfTest.canSetWeapon" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DwarfTest_hasChainmailProtection - 2018.01.17 at 11h 52m 00s.xml">
       <configuration name="DwarfTest.hasChainmailProtection" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DwarfTest_hasWeapon - 2018.01.17 at 11h 48m 14s.xml">
       <configuration name="DwarfTest.hasWeapon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DwarfTest_healthValueStartsAt100 - 2018.01.17 at 11h 44m 17s.xml">
-      <configuration name="DwarfTest.healthValueStartsAt100" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DwarfTest_treasureStartsEmpty - 2018.01.17 at 11h 45m 26s.xml">
-      <configuration name="DwarfTest.treasureStartsEmpty" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DwarfTest_weaponHasDamage - 2018.01.17 at 11h 50m 39s.xml">
       <configuration name="DwarfTest.weaponHasDamage" configurationId="JUnit" />
@@ -904,69 +907,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/NonMagicalPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/Dwarf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
             <element signature="e#371#372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DwarfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -986,8 +932,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BarbarianTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="53" column="43" lean-forward="false" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        <state relative-caret-position="343">
+          <caret line="56" column="4" lean-forward="false" selection-start-line="56" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
@@ -1008,6 +954,71 @@
             <element signature="e#1073#1074#0" expanded="true" />
             <element signature="e#1135#1136#0" expanded="true" />
             <element signature="e#1196#1197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Players/NonMagicalPlayers/NonMagicalPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DwarfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
           </folding>
         </state>
       </provider>
